@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+#ESTILOS-DEL-NAVBAR
+
+
+
+
+#ESTILOS-DEL-FOOTER
+
+#whatsapp {  
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+svg {
+  width: 8rem;
+  display: inline-block;
+  vertical-align: middle;
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+}
+circle {
+  fill: #25d366;
+}
+path {
+    fill:  #fff;
+}
+#whatsapp a {padding: 20px 0;}
+#whatsapp a::before {
+    content: 'Consulta';
+    font-size: 1.3rem;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px;
+    margin-right: .3rem;
+    color: rgba(0, 0, 0, .8);
+    background: white;
+    border: 1px solid #ccc;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+    transition: .3s ease;
+    opacity: 0;
+}
+#whatsapp:hover a::before {opacity: 1;}
